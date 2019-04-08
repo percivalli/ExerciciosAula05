@@ -50,7 +50,7 @@ public class Conta {
 
     public void saque(Double quantiaDinheiro) {
         if (saldo < quantiaDinheiro) {
-            System.out.println("Saldo insuficiente");
+            System.out.println("Saldo insuficiente. \nSaldo atual:" + saldo);
         } else {
             saldo -= quantiaDinheiro;
             System.out.println("Saque realizado com sucesso.\nNovo saldo: " + saldo);
