@@ -1,34 +1,34 @@
 package br.com.digitalhouse;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Cliente cliente1 = new Cliente();
-        Cliente cliente2 = new Cliente();
+        Conta conta1 = new Conta(1000, "Danilo", "Percivalli", 10.0 ")
 
-        cliente1.setNome("Danilo");
-        cliente1.setSobrenome("Percivalli");
-        cliente2.setNome("Lohraine");
-        cliente2.setSobrenome("Maia");
 
     }
 
-    public static Integer deposito(Cliente cliente1) {
+    public static void deposito(Cliente cliente1) {
 
-        float valor = 1000;
+        int vDeposito;
+        int saldo;
 
-        private static void depositar () {//exige do usuário valores para deposito
-            float Vdeposito;
+        Scanner scanner = new Scanner(System.in);
 
-            Scanner tec = new Scanner(System.in);
+        int valor = scanner.nextInt();
 
-            System.out.print("Digite um valor para depósito : ");
-            Vdeposito = tec.nextInt();
+        cliente1.setSaldo(valor);
 
-            valor += Vdeposito;
+        System.out.println("Digite o valor do depósito...");
+        vDeposito = scanner.nextInt();
 
-            System.out.println("Seu novo saldo é " + valor);
+        cliente1.setSaldo() += cliente1.setSaldo(vDeposito);
 
-        }
+        System.out.println("Seu novo saldo é " + cliente1.getSaldo());
+
+
     }
-
 }
+
+

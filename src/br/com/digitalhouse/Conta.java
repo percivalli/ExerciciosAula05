@@ -3,7 +3,7 @@ package br.com.digitalhouse;
 public class Conta {
     public Integer numeroDaConta;
     private Integer saldo;
-    private Conta titular;
+    private Cliente titular;
 
     public Integer getSaldo() {
         return saldo;
@@ -14,11 +14,11 @@ public class Conta {
     }
 
     public void setSaldo(Integer saldo) {
-        saldo = saldo;
+        this.saldo = saldo;
     }
 
     public void setTitular(Cliente titular) {
-        titular = titular;
+        this.titular = titular;
     }
 
 }

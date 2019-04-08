@@ -13,12 +13,12 @@ public class Cliente {
     }
 
     public void setNome(String nomeDoCliente) {
-        nome = nomeDoCliente;
+        this.nome = nomeDoCliente;
     }
 
     public void setSobrenome(String sobrenomeDoCliente) {
-        sobrenome = sobrenomeDoCliente;
+        this.sobrenome = sobrenomeDoCliente;
     }
 
 
-}
+
